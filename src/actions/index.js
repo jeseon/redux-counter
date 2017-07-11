@@ -1,16 +1,14 @@
-export const INCREMENT = "INCREMENT";
-export const DECREMENT = "DECREMENT";
-export const SET_DIFF = "SET_DIFF";
+import * as types from './ActionTypes';
 
 export const increment = () => ({
-  type: INCREMENT
+  type: types.INCREMENT
 });
 
 export const decrement = () => ({
-  type: DECREMENT
+  type: types.DECREMENT
 });
 
-export const setDiff = diff => ({
-  type: SET_DIFF,
-  diff
+export const setColor = color => ({
+  type: types.SET_COLOR,
+  color
 });

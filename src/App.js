@@ -1,11 +1,9 @@
 import React from 'react';
-import { Counter, Buttons, Options } from './components';
+import { CounterContainer } from './containers';
 
 const App = () => (
-  <div style={{textAlign: 'center'}}>
-    <Counter/>
-    <Options/>
-    <Buttons/>
+  <div>
+    <CounterContainer/>
   </div>
 );
 
