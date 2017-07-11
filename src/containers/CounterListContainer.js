@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { CounterList } from '../components';
 import { getRandomColor } from '../utils';
-import * as actions from '../actions';
+import * as actions from '../modules';
 
 const mapStateToProps = state => ({
   counters: state.get('counters').toJS()
