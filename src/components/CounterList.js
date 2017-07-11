@@ -23,10 +23,7 @@ const CounterList = ({counters, onIncrement, onDecrement, onSetColor}) => {
 };
 
 CounterList.propTypes = {
-  counters: PropTypes.arrayOf(PropTypes.shape({
-    color: PropTypes.string,
-    number: PropTypes.number
-  })),
+  counters: PropTypes.array,
   onIncrement: PropTypes.func.isRequired,
   onDecrement: PropTypes.func.isRequired,
   onSetColor: PropTypes.func.isRequired
